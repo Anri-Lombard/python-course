@@ -1,11 +1,11 @@
 import random
 
-answer = random.randint(1, 10)
 count = 0
 still_playing = True
 guess = 0
-high = 10
+high = 1000
 low = 1
+answer = random.randint(low, high)
 
 while guess != answer:
     print(f"Please guess a number between {low} and {high}: ")
@@ -26,4 +26,4 @@ while guess != answer:
             high = guess
             continue
 
-print("Game Over! Try Again.")
+print("Feel free to try Again.")
