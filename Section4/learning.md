@@ -12,6 +12,9 @@
 6. An empty dataset.
 
 # Algorithms
+Shorter code usually indicated great crafted code.
+
+<br><br>
 <em>By CS Dojo</em><br>
 <strong>Big-O notation and time complexity</strong><br><br>
 
@@ -21,3 +24,17 @@
 2. How does the runtime of this function grow?
 - Runtime = time it takes to execute a piece of code
 - Use Big O Notation and time complexity to find out
+
+#### Patterns
+Time complexity = a way of showing how the runtime of a function
+increases
+1. Linear time
+2. Constant time
+3. Quadratic time
+
+## Function signatures
+The definition of a function including the name and the parameters that
+it defines.
+
+## Tuples
+- An ordered set of data
