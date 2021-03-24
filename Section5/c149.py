@@ -7,8 +7,13 @@ def banner_text(text):
     if text == "*":
         print("*" * screen_width)
     else:
-        output_string = f"**{text.center(screen_width - 4)}"
+        output_string = f"**{text.center(screen_width - 4)}**"
         print(output_string)
 
 
-print(banner_text("hlsdkjf"))
+banner_text("*")
+banner_text("This is my name")
+banner_text("...ANRI...")
+banner_text("And this is seriously a passionate person!")
+banner_text("*")
+print("Hey")
